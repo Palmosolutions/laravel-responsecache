@@ -12,6 +12,7 @@ use Spatie\ResponseCache\Exceptions\CouldNotUnserialize;
 use Spatie\ResponseCache\Replacers\Replacer;
 use Spatie\ResponseCache\ResponseCache;
 use Symfony\Component\HttpFoundation\Response;
+use Jenssegers\Agent\Facades\Agent;
 use Throwable;
 
 class CacheResponse
